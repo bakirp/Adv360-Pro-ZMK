@@ -6,7 +6,8 @@
     "base",
     "keypad",
     "fn",
-    "mod"
+    "mod",
+    "SPECIAL KEYS"
   ],
   "layers": [
     [
@@ -33,6 +34,12 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
+    ], [
+       "&trans",  "&kp FSLH", "&kp LBKT", "&kp LBRC",   "&kp LPAR",    "&kp LT",              "&trans",                                                                "&trans", "&kp CARET", "&kp MINUS", "&kp PLUS", "&kp ASTRK", "&kp UNDER",     "&none",
+       "&trans",  "&kp EXCL",   "&kp AT", "&kp HASH", "&kp DOLLAR", "&kp PRCNT",           "&kp GRAVE",                                                             "&kp TILDE", "&kp QMARK",  "&kp PIPE", "&kp AMPS",   "&kp DQT",   "&kp SQT",  "&kp PLUS",
+       "&trans", "&kp COLON", "&kp LBKT", "&kp LBRC",   "&kp LPAR",    "&kp LT",            "&kp FSLH", "&trans", "&trans",                     "&trans", "&trans",  "&kp BSLH",    "&kp GT",  "&kp RPAR", "&kp RBRC",  "&kp RBKT",  "&kp SEMI", "&kp EQUAL",
+       "&trans",    "&kp F1",   "&kp F2",   "&kp F3",     "&kp F4",    "&kp F5",                                  "&trans",                     "&trans",                           "&kp F6",    "&kp F7",   "&kp F8",    "&kp F9",   "&kp F10",    "&trans",
+       "&trans",    "&trans",   "&trans",   "&trans",     "&trans",                           "&trans", "&trans", "&trans",                     "&trans", "&trans",    "&trans",                 "&trans",   "&trans",   "&kp F11",   "&kp F12",    "&trans"
     ]
   ]
 }
